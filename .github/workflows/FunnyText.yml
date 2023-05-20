@@ -20,7 +20,7 @@ jobs:
             node-version : '14'
             
       - name: Install Dependecies
-        uses : npm install@v3
+        uses : npm install@v1
         
      
       
