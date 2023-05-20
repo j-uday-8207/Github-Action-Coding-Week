@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: Funny Text
-        run: FunnyText.js
+        run: node  FunnyText.js
