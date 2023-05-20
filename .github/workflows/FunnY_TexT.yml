@@ -1,0 +1,15 @@
+name : FunnY TexT Printer on a PR
+
+on: 
+  pull_request:
+    types:
+      - opened
+      - synchronize
+
+jobs:
+  print-Funny_Text:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Funny Text
+        run: FunnyText.js
