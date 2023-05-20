@@ -22,4 +22,4 @@ jobs:
     
     
       - name: FunnyText
-        run: node /.github/workflows/FunnyText.js
+        run: node FunnyText.js
