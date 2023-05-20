@@ -20,7 +20,7 @@ jobs:
             node-version : '14'
             
       - name: install
-        uses : npm install@v4
+        uses : npm install@v3
         
      
       
