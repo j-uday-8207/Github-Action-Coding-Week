@@ -19,7 +19,7 @@ jobs:
         with :
             node-version : '14'
             
-      - name: install
+      - name: Install Dependecies
         uses : npm install@v3
         
      
@@ -28,4 +28,4 @@ jobs:
     
     
       - name: FunnyText
-        run: Github-Action-Coding-Week/.github/workflows/FunnyText.js
+        run: FunnyText.js
