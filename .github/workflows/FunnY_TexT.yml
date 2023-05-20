@@ -16,8 +16,7 @@ jobs:
         with :
             node-version : '14'
      
-      - name: Install Node 
-        uses: npm install
+      
     
     
     
