@@ -11,5 +11,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Funny Text
-        run: node  FunnyText.js
+      - name: FunnyText
+        run: node .github/workflows/FunnyText.js
