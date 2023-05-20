@@ -23,4 +23,4 @@ jobs:
     
     
       - name: FunnyText
-        run: .github/workflows/FunnyText.js
+        run: .github\workflows\FunnyText.js
